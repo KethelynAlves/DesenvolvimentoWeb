@@ -1,19 +1,46 @@
 body {
     font-family: 'Times New Roman', Times, serif;
-    margin: 0 auto;
+    margin: auto;
+    margin-top: 0px;
     width: 70%;
-    padding: 20px;
-    background-image: url('/Imagens/paisagem.png'), url('/Imagens/folhas.png');
-    background-position: top center,left top;
-    background-repeat: no-repeat, repeat;
-    background-size: 70% auto, 20% 100%;
+    background-image: url('/Imagens/folhas.png');
+    background-position: left top;
+    background-size: 20% 100%;
     background-attachment: fixed;
     
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url('/Imagens/paisagem.png');
+    background-position: center center;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    
+}
+
+nav{
+    text-align: center;
+    margin-top: 100px;
+}
+
+main {
+    color: rgb(9, 22, 9);
+    text-align: justify;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+    background: linear-gradient(to bottom, #4e944e, #b3ffa3);
 }
 
 figure {
     text-align: center;
-    margin: 20px;
+    margin: 10px;
 }
 
 img {
@@ -28,13 +55,12 @@ video {
 h1 {
     color: rgb(62, 112, 62);
     text-align: center;
-    margin-bottom: 50px;
     font-size: 70px;
 }
 h2 {
     color: rgb(15, 37, 15);
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     font-size: 35px;
 }
 
@@ -45,16 +71,15 @@ h3 {
     font-size: 24px;
 }
 
-.apresentacao p {
-    color: rgb(9, 22, 9);
-    text-align: justify;
-    padding: 5px;
-    font-size: 20px;
-    margin: 0;
+fieldset{
+    margin-top: 10px;
+    padding: 10px;
 }
 
 ul,ol {
     font-size: 18px;
+    padding-left: 30px;
+    padding-bottom: 10px;
 }
 
 table{
@@ -80,11 +105,10 @@ th, td {
 a {
     border-style: solid; border-width: 1px;
     border-radius: 15px;
-    margin-bottom: 20px;
     color: rgb(73, 102, 79);
     background-color: rgb(248, 248, 248);
     text-decoration: none;
-    padding: 10px 90px;
+    padding: 10px 70px;
     display: inline-block;
 }
 
@@ -101,18 +125,6 @@ footer p{
     border-radius: 8px;
     padding: 10px;
     margin: 0;
-}
-
-.cabecalho {
-    padding: 5px;
-    border-radius: 8px;
-    text-align: center;
-}
-
-.apresentacao {
-    padding: 20px;
-    background: linear-gradient(to bottom, #4e944e, #b3ffa3);
-
 }
 
 .video-container {
